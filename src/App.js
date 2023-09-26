@@ -1,6 +1,6 @@
 
 import './styles/App.scss';
-import PostAxios from './components/PostAxios2'
+import PostAxios from './components/PostAxios'
 function App() {
   return (
     <div>
