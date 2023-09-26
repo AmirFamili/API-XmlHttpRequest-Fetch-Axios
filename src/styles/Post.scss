@@ -1,0 +1,70 @@
+
+.add-post{
+    margin: 20px 50px;
+    padding: 15px;
+    text-align: center;
+    input{
+        padding:5px 15px;
+    }
+    label{
+        padding:0 5px 0 20px;
+    }
+    .add{
+        background-color: rgb(6, 153, 36);
+        color: white;
+        padding:8px 15px;
+        border-radius: 10px;
+        margin: 4px;;
+        border: none;
+        &:hover{
+            background-color: rgb(4, 98, 23);
+        }
+    }
+        .delete{
+            background-color: rgb(243, 5, 5);
+            color: white;
+            padding:8px 15px;
+            border-radius: 10px;
+            margin: 4px;
+            border: none;
+            &:hover{
+                background-color: rgb(189, 7, 7);
+            }
+        }
+        .edit{
+            background-color: rgb(223, 156, 11);
+            color: white;
+            padding:8px 15px;
+            border-radius: 10px;
+            margin: 4px;;
+            border: none;
+            &:hover{
+                background-color:rgb(172, 120, 9);
+            }
+        }
+    
+}
+
+.post{
+    padding: 15px;
+    margin: 20px 50px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    h2{
+        color: rgb(140, 65, 11);
+    }
+    button{
+        background-color: rgb(238, 10, 10);
+        color: white;
+        padding:8px 15px;
+        border-radius: 10px;
+        margin: 10px 0;
+        border: none;
+        &:hover{
+            background-color: rgb(192, 8, 8);
+        }
+    }
+}
+h3{
+    text-align: center;
+}
